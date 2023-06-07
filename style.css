@@ -1,6 +1,72 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.top-banner{
+    background-image: url(images/backg1.jpg) ;
 }
 h1{
     font-size: 50px;
+}
+.colored{
+    color: orange ;
+}
+.flexible{
+    display: flex;
+}
+.half-part{
+    width: 50%;
+    padding: 5%;
+
+}
+.half-part img {
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.halfbanner2{
+    width: 50%;
+    padding: 50px;
+}
+.halfbanner2 img{
+    width: 100%;
+}
+#banner2divtext{
+    font-size: 40px;
+}
+.banner2{
+    background-image:url(images/backg1.jpg);
+}
+.productarea{
+    background-image: url(images/colored\ cirle.jpg);
+}
+.datesname{
+    color: orangered;
+}
+.productname{
+    padding-left: 5%;
+    color: blue;
+}
+.productbox{
+    width: 50%;
+    padding: 2%;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 10px solid blue;
+}
+.productbox img {
+    width: 80%;
+    
+}
+footer p{
+    text-align: center;
+    padding-top: 40px;
 }
